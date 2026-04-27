@@ -39,8 +39,8 @@ const FormularioColores = () => {
   }
 
     return (
-        <div className='flex flex-col items-center gap-6'>
-        <form className='flex flex-col min-w-md bg-green-400 p-8 rounded-xs' onSubmit={handleSubmit} >
+        <div className='min-h-screen flex flex-col items-center justify-center gap-6 px-4'>
+        <form className='flex flex-col w-full max-w-md bg-green-400 p-6 rounded gap-4' onSubmit={handleSubmit} >
             <div className='flex items-center'>
                 <span className='inline-block w-6 h-6 bg-red-500 mr-2'></span>
               <label htmlFor="">Ingrese un color</label>
